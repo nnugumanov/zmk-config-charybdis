@@ -26,6 +26,36 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
+
+        LeftClickRight {
+            bindings = <&mkp LCLK>;
+            key-positions = <19 20>;
+        };
+
+        RightClickRight {
+            bindings = <&mkp RCLK>;
+            key-positions = <20 21>;
+        };
+
+        ParaLeft {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <3 15>;
+        };
+
+        ParaRight {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <4 16>;
+        };
+
+        BrackLeft {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <7 19>;
+        };
+
+        BrakRight {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <8 20>;
+        };
     };
 
     keymap {
