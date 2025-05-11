@@ -213,11 +213,11 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &studio_unlock  &trans          &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans    &trans  &trans
-        &trans  &trans  &trans  &trans  &trans          &trans          &trans              &trans
+&trans  &trans            &trans            &trans            &trans             &studio_unlock       &trans          &trans    &trans    &trans    &trans  &trans
+&trans  &wnd_last_third   &wnd_top_left     &wnd_top_half     &wnd_top_right     &wnd_last_2_thirds           &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &wnd_first_third  &wnd_left_half    &wnd_maximize     &wnd_right_half    &wnd_first_2_thirds          &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
+&trans  &trans            &wnd_bottom_left  &wnd_bottom_half  &wnd_bottom_right  &trans                       &trans  &trans    &trans    &trans    &trans  &trans
+        &trans            &trans            &trans            &trans             &trans               &trans          &trans              &trans
             >;
         };
     };
