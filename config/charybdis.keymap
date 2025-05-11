@@ -65,6 +65,99 @@
         };
     };
 
+    macros {
+        wnd_left_half: wnd_left_half {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(LEFT_ARROW))>;
+            label = "WND_LEFT_HALF";
+        };
+
+        wnd_right_half: wnd_right_half {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(RIGHT))>;
+            label = "WND_RIGHT_HALF";
+        };
+
+        wnd_top_half: wnd_top_half {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(UP_ARROW))>;
+            label = "WND_TOP_HALF";
+        };
+
+        wnd_bottom_half: wnd_bottom_half {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(DOWN))>;
+            label = "WND_BOTTOM_HALF";
+        };
+
+        wnd_top_left: wnd_top_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(U))>;
+            label = "WND_TOP_LEFT";
+        };
+
+        wnd_top_right: wnd_top_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(I))>;
+            label = "WND_TOP_RIGHT";
+        };
+
+        wnd_bottom_left: wnd_bottom_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(J))>;
+            label = "WND_BOTTOM_LEFT";
+        };
+
+        wnd_bottom_right: wnd_bottom_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(K))>;
+            label = "WND_BOTTOM_RIGHT";
+        };
+
+        wnd_maximize: wnd_maximize {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(ENTER))>;
+            label = "WND_MAXIMIZE";
+        };
+
+        wnd_first_third: wnd_first_third {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(D))>;
+            label = "WND_FIRST_THIRD";
+        };
+
+        wnd_last_third: wnd_last_third {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(G))>;
+            label = "WND_LAST_THIRD";
+        };
+
+        wnd_first_2_thirds: wnd_first_2_thirds {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(E))>;
+            label = "WND_FIRST_2_THIRDS";
+        };
+
+        wnd_last_2_thirds: wnd_last_2_thirds {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(T))>;
+            label = "WND_LAST_2_THIRDS";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
