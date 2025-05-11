@@ -220,5 +220,15 @@
         &trans            &trans            &trans            &trans             &trans               &trans          &trans              &trans
             >;
         };
+
+        Colemak-DH {
+            bindings = <
+&kp GRAVE   &kp N1       &kp N2         &kp N3      &kp N4        &kp N5   &kp N6            &kp N7        &kp N8      &kp N9           &kp N0       &kp LEFT_BRACKET
+&kp TAB     &kp Q        &kp W          &kp F       &kp P         &kp B               &kp J  &kp L         &kp U       &kp Y            &kp SEMI     &kp RIGHT_BRACKET
+&kp ESC     &mt LCTRL A  &mt LALT R     &mt LGUI S  &mt LSHIFT T  &kp G               &kp M  &mt RSHIFT N  &mt RGUI E  &mt RALT I       &mt RCTRL O  &kp APOS
+&kp LSHIFT  &lt 3 Z      &kp X          &kp C       &kp D         &kp V               &kp K  &kp H         &kp COMMA   &kp DOT          &lt 3 SLASH  &lt 2 BACKSLASH
+            &lt 1 TAB    &kp BACKSPACE  &kp LGUI    &kp SPACE     &kp DEL  &kp ENTER         &kp SPACE                 &lt 2 BACKSPACE
+            >;
+        };
     };
 };
