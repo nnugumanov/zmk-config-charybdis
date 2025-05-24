@@ -164,24 +164,17 @@
             label = "TOGGLE_QWERTY";
         };
 
-        change_lang: to_ru {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt LG(SPACE)>;
-            label = "TO_RU";
-        };
-
         layer_en: layer_colemak {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &change_lang>;
+            bindings = <&to 0 &caps_word>;
             label = "LAYER_COLEMAK";
         };
 
         layer_ru: layer_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &change_lang>;
+            bindings = <&to 1 &caps_word>;
             label = "LAYER_RU";
         };
     };
