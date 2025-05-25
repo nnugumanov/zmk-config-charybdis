@@ -177,6 +177,7 @@
             bindings = <&to 1 &caps_word>;
             label = "LAYER_RU";
         };
+
     };
 
     keymap {
