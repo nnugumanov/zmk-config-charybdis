@@ -169,15 +169,22 @@
         layer_en: layer_colemak {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &caps_word>;
+            bindings = <&to 0 &change_lang>;
             label = "LAYER_COLEMAK";
         };
 
         layer_ru: layer_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &caps_word>;
+            bindings = <&to 1 &change_lang>;
             label = "LAYER_RU";
+        };
+
+        change_lang: change_lang {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(SPACE)>;
+            label = "CHANGE_LANG";
         };
     };
 
